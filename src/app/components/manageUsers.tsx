@@ -208,6 +208,7 @@ const ManageUsers = () => {
                 )
             )
             setEditingUserId(null) // Exit edit mode after updating
+            setEditMode(false)
             setEditUserData({
                 id: '',
                 username: '',
@@ -563,7 +564,7 @@ const ManageUsers = () => {
                                                 <input
                                                     type="text"
                                                     placeholder="Values"
-                                                    value={filter.values} // Controlled input for filter values
+                                                    value={Array.isArray(filter.values) ? filter.values.join(',') : filter.values as string} // Controlled input for filter values
                                                     onChange={
                                                         (e) =>
                                                             handleFilterChange(

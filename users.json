@@ -5,8 +5,22 @@
       "username": "admin",
       "email": "admin_user@example.com",
       "mappingValue": "demo,test",
-      "dashboards": [],
+      "dashboards": [
+        {
+          "embedID": "qQX9k",
+          "name": "My Dashboard",
+          "filters": [],
+          "policies": []
+        }
+      ],
       "password": "$2a$10$H.ZvlAViJoV2p1jCWKivyOVyoRPhc4NjxFXCMgvpANeLseKpNOfjm"
     }
-  ]
+  ],
+  "embedTokens": {
+    "12685e0f-0b6b-4bc3-8a66-adf8a1bcca7e_qQX9k": {
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNjMzMjI4MjkwIiwibmJmIjoxNzUwMzk2NTk4LCJkb20iOiJkb21vLXNhbGVzLWFwYWMuZG9tby5jb20iLCJpc3MiOiJhcGlFbWJlZCIsImVtYiI6WyJ7XCJ0b2tlblwiOlwicVFYOWtcIixcImxpbmtUeXBlXCI6XCJQUklWQVRFXCIsXCJwZXJtaXNzaW9uc1wiOltcIkZJTFRFUlwiLFwiRVhQT1JUXCIsXCJSRUFEXCJdLFwicG9saWNpZXNcIjpbXSxcInByb2dcIjp0cnVlfSJdLCJleHAiOjE3NTA0MjU0MDgsImlhdCI6MTc1MDM5NjYwOCwianRpIjoiMDFhOTU5YmQtNzc0YS00OTkzLTlhNWUtMjQ1ZjdhZWRiMmI0In0.3Lps4eSGWheFZXo2nb-xD6IKiP3GneuxHJ7IShFCCoc",
+      "expiration": 1750425348,
+      "filters": []
+    }
+  }
 }

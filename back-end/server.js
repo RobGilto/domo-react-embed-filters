@@ -34,7 +34,7 @@ app.use(express.json()) // Parse incoming JSON requests
 app.use(cookieParser()) // Parse cookies from incoming requests
 app.use(
   cors({
-    origin: 'http://localhost:3000', // Allow requests from this origin
+    origin: ['http://localhost:3000', 'http://localhost:3001'], // Allow requests from this origin
     credentials: true, // Allow credentials (cookies) to be sent
   })
 )
